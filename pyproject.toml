@@ -1,0 +1,19 @@
+[project]
+name = "paper-asltk"
+version = "0.0.1"
+description = "A set of scripts and experiments to describe the asltk toolkit into a scientific paper"
+authors = [
+    {name = "acsenrafilho",email = "acsenrafilho@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.9,<4.0"
+dependencies = [
+]
+
+[project.scripts]
+paper-asltk = "paper_asltk:main"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
